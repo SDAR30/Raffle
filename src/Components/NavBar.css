@@ -1,0 +1,6 @@
+.nav:hover{
+     cursor: pointer;
+ }
+ .active {
+    background-color: rgb(216, 216, 216);
+ }

@@ -1,0 +1,36 @@
+.required:after {
+    content:" *";
+    color: red;
+  }
+
+  .create-raffle-form{
+      border: 1px solid black;
+      padding: 5px;
+  }
+
+  .create-raffle-form label{
+    font-size: 20px;
+  }
+
+.raffle-list {
+   border: 2px solid blue;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   height: 70vh;
+   margin: 20px;
+   overflow-y: scroll;
+}
+
+.title-header{
+  border: 1px solid gray;
+  margin: 10px;
+}
+
+.token-warning{
+  font-size: 14px;
+}
+.create-button{
+  margin-bottom: 10px;
+  width: 200px;
+  cursor: pointer;
+}

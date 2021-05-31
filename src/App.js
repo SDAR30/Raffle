@@ -1,24 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home';
+import {useState} from "react";
+import { Route, Switch } from 'react-router-dom';
+import Participants from './Components/Participants';
+import Register from './Components/Register';
+import SelectWinner from './Components/SelectWinner';
+
 
 function App() {
+  const [title,setTitle] = useState("");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route path={"/raffles/:id/participants"} >
+          <Participants title={title}  />
+        </Route>
+        <Route path={"/raffles/:id/winner"} >
+          <SelectWinner title={title}  />
+        </Route>
+        <Route path={"/raffles/:id"}>
+          <Register title={title}  />
+        </Route>
+        <Route exact path={"/"} >
+          <Home title={title} setTitle={setTitle}/>
+        </Route>
+      </Switch>
     </div>
+
+
   );
 }
 

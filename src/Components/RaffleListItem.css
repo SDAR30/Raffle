@@ -1,0 +1,5 @@
+.raffle-listitem{
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+}
