@@ -38,14 +38,16 @@ const Home = (props) => {
     }
 
     const createRaffle = async () => {
-        const notify = () => toast("New Raffle Created: "+raffleName);
+        const notifySuccess = () => toast("New Raffle Created: "+raffleName);
+        const notifyFailure = () => toast(raffleName + " failed to be created");
         let payload = { name: raffleName, secret_token: secretToken };
         try {
             await axios.post('/api/raffles', payload);
             setRaffleName("")
             setSecretToken("")
-            notify()
+            notifySuccess()
         } catch (error) {
+            notifyFailure()
             console.log(error)
         }
     }
