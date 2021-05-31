@@ -10,7 +10,7 @@ const defaultProps = {
     m: 2,
     padding: 1,
     border: 3,
-    style: { width: '60rem', height: '4rem' },
+    style: { width: '60rem', height: 'auto' },
 };
 
 const SelectWinner = (props) => {

@@ -4,3 +4,8 @@
  .active {
     background-color: rgb(216, 216, 216);
  }
+
+ nav img {
+     height: 40px;
+     width: 40px;
+ }

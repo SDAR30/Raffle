@@ -137,7 +137,7 @@ const Register = (props) => {
 
                         </Grid>
                         {submitMessage ? <Grid container justify="center">
-                            <h4 className="submit-message" bgcolor="success.main">{submitMessage}</h4>
+                            <h4 className="submit-message" style={{ color: 'darkgreen' }}>{submitMessage}</h4>
                         </Grid> : null}
                         <Grid container justify="center">
                             <Button
