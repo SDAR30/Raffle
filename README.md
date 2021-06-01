@@ -2,13 +2,11 @@
 
 Client-side raffle application using React
 
-### `Project Description`
+##### `Project Description`
 
 Using a REST API, this project displays a list of raffles, creates raffles, sign ups participants into existing raffles and picks a winner at random.
 
 Use 'npm start' to run locally, [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-Or check the deployed website here:
 
 ### `Pages`
 
