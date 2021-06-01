@@ -31,9 +31,10 @@ Displays the total number of participants with all their sign-in information. In
 
 Displays a form where a user (the raffle admin) can input their secret token and pick a winner at random for the raffle. If a winner has already been picked this page displays a card with the user information and a celebratory image.
 
-Libraries used:
+
 
 -----
+##### Libraries used:
 
 - react
 - material-ui/core
