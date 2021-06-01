@@ -8,7 +8,7 @@ Using a REST API, this project displays a list of raffles, creates raffles, sign
 
 [Response to this challenge](https://github.com/joinpursuit/Frontend-And-Mobile-Takehome-Coding-Challenge)
 
-Use 'npm install' to install node all node packages and then run 'npm start' to run locally, [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Use 'npm install' to install all node packages and then run 'npm start' to run locally, [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `Pages`
 
